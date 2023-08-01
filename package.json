@@ -1,0 +1,23 @@
+{
+  "name": "ecmascript6_study",
+  "version": "1.0.0",
+  "description": "Estudio ecmascript6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samu7861/Ecmascript6_study.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "Samuel Franco <sfrancog7861@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samu7861/Ecmascript6_study/issues"
+  },
+  "homepage": "https://github.com/samu7861/Ecmascript6_study#readme"
+}
