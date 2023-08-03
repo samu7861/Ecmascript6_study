@@ -7,14 +7,52 @@ class User{
 
 class user{
     //constructor
-    constructor(){
-        console.log("Nuevo usuario")
+    constructor(name){
+        this.name = name
     }
     //métodos
     greeting(){
-        return "hello"
+        return `${this.speak()} ${this.name}`
+    }
+
+    speak(){
+        return "hello primito"
     }
 }
 
-const gndx = new user()
-console.log(gndx.greeting())
+const david = new user("david")
+console.log(david.greeting())
+
+
+//setter getter
+
+class user {
+    constructor(name, age){
+        this.name = name
+        this.age = age
+    }
+
+//métodos
+
+    speak(){
+        return "hello"
+    }
+
+    greeting(){
+        return `${this.speak()} ${this.name}`
+    }
+
+//getter setter
+
+    get uAge(){
+        return this.age
+    }
+
+    set uAge(n){
+        this.age=n
+    }
+}
+
+const developer = new user("samu", 18)
+console.log(developer.uAge)
+console.log(developer.uAge = 20)
