@@ -11,3 +11,9 @@ const anotherFunction = async () => {
     console.log(something)
     console.log("hello")
 }
+
+console.log("before")
+
+anotherFunction()
+
+console.log("after")
